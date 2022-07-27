@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>NIIS Bank</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="https://www.eduvidya.com/Colleges/NIIS-Institute-of-Business-Administration,-Bhubaneswar">
+		<script type="module" src="main.js"></script>
+    </head>
+    <body onload="">
+        <div class="center-div">
+            <i class="bi bi-person-fill"></i>          
+            <h1 id="Multi-color">NIIS BANK</h1>
+            <label id="errorMessage"></label><br/>
+            <div id="login-portal">
+                <h3>Login</h3><br/>
+                <label>Account Number:</label><br/>
+                <input type="text" id="Lname" class="textbox-style margin-bottom-12" placeholder="Enter Your Account Number" required><br/>
+                <label>Password:</label><br/>
+                <input type="password" id="lpassword" class="textbox-style margin-bottom-12" placeholder="Enter Your Password" required><br/>
+                <button id="login-button" class="margin-bottom-12">Login</button><br/>
+                <label class="switch"  id="forregisterred">Don't have an account? Register</label>
+                
+
+            </div><br/><br/>
+            <div id="register-portal">
+                <h3>Register</h3><br/>
+                <label>Name:</label><br/>
+                <input type="text" id="rname" class="textbox-style margin-bottom-12" placeholder="Enter Your Full Name" required><br/>
+                <label>Account Number:</label><br/>
+                <input type="text" id="rAccNumber" class="textbox-style margin-bottom-12" placeholder="Enter Your Account Number" required><br/>
+                <label>Mobile Number:</label><br/>
+                <input type="number" id="rmnumber" class="textbox-style margin-bottom-12" placeholder="Enter Your Mobile Number" required><br/>
+                <label>Email:</label><br/>
+                <input type="email" id="remail" class="textbox-style margin-bottom-12" placeholder="Enter Your Email Id" required><br/>
+                <label>Password:</label><br/>
+                <input type="password" id="rpassword" class="textbox-style margin-bottom-12" placeholder="Enter Your Password" required><br/>
+                <label>Confirm Password:</label><br/>
+                <input type="password" id="rcnpassword" class="textbox-style margin-bottom-12" placeholder="Enter Your Confirm Password" required><br/>
+                <button id="register-button" class="margin-bottom-12" >Register</button><br/>
+                <label class="switch"  id="forloginred">Already have an account? Login</label>
+
+            </div>
+            <div id="portal">
+                <h2 id="userName"></h2><br/>
+                <h2 id="userBalance"></h2><br/>
+                <div id="deposit-portal">
+                    <h4>Deposit</h4><br/>
+                    <label>Enter Amount:</label>
+                    <input type="number" class="textbox-style margin-bottom-12" id="deposit-amount" required><br/>
+                    <button id="deposit-submit" class="margin-bottom-12">Deposit</button>
+                    <button  id="home-btn1">Home</button>
+                </div>
+                <div id="Withdraw-portal">
+                    <h4>Withdraw</h4><br/>
+                    <label>Enter Amount:</label>
+                    <input type="number" class="textbox-style margin-bottom-12" id="withdraw-amount" required><br/>
+                    <button id="withdraw-submit" class="margin-bottom-12">Withdraw</button>
+                    <button  id="home-btn2">Home</button>
+                </div>
+                <div id="transfer-portal">
+                    <h4>Transfer</h4><br/>
+                    <label>Account Number:</label>
+                <input type="text" id="reciverAccNumber" class="textbox-style margin-bottom-12" placeholder="Enter Receiver Account Number"  required><br/>
+                    <label>Enter Amount:&ensp; &ensp;</label>
+                    <input type="number" class="textbox-style margin-bottom-12" id="transfer-amount" required><br/>
+                    <button id="transfer-submit" class="margin-bottom-12">Transfer</button>
+                    <button  id="home-btn3">Home</button>
+                </div><br/>
+                <div id="options">
+                <h3>Please select an options &ensp;</h3>
+                <button id="deposit-btn"  class="margin-bottom-12">Deposit</button>
+                <button id="withdraw-btn" class="margin-bottom-12">Withdraw</button>
+                <button id="transfer-btn" class="margin-bottom-12">Transfer</button>
+                </div>
+            </div>
+        </div>
+        
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
